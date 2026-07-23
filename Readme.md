@@ -110,4 +110,4 @@ This project currently stores data only while the program is running. Once the p
 
 **Vrishabh Deshmukh**
 
-> "Kharcha kam kiya karo or saving karo !"
+> "Kharcha kam kiya kar!"
