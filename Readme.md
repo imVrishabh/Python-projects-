@@ -108,6 +108,6 @@ This project currently stores data only while the program is running. Once the p
 
 ## Author
 
-**Vrishabh**
+**Vrishabh Deshmukh**
 
 > "Kharcha kam kiya karo!"
