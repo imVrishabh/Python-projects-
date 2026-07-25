@@ -1,12 +1,12 @@
 # import tkinter for creating GUI apps
 import tkinter as tk
-from tkinter import filedialog, messeagebox
+from tkinter import filedialog, messagebox
 
 
 # Main window code 
-root = tk.TK()
+root = tk.Tk()
 root.title("VD Text Editor")
-root.geometry("800*600")
+root.geometry("800x600")
 
 #create texr area 
 text= tk.Text(
@@ -25,7 +25,7 @@ def new_file():
 #function 2- to create new file 
 def open_file():
     # open file dialogue
-    file_path= filedialog.askopennfilename(
+    file_path= filedialog.askopenfilename(
         defaultextension=".txt",
         filetypes=[("Text Files","*.txt" )]
     )
